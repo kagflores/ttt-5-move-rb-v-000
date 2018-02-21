@@ -13,5 +13,4 @@ end
 
 def move (board, user_input, user_char = "X")
     board[user_input] = user_char
-    display_board(board)
 end
