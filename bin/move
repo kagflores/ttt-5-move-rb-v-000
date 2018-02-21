@@ -9,5 +9,5 @@ board = get_variable_from_file("./bin/move", "board")
 "Where would you like to go?"
 index = gets.strip
 input_to_index(index)
-move (board, user_input, user_char)
+move (board, index, user_char)
 display_board(board)
